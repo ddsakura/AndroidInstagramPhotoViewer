@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.cire.instagramphotoviewer.ui.SquareImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter" />
+
+    <RelativeLayout
+        android:id="@+id/llInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivPhoto"
+        android:padding="@dimen/padding" >
+
+        <com.cire.instagramphotoviewer.ui.CircledImageView
+            android:id="@+id/ivProfile"
+            android:layout_width="@dimen/profile_size"
+            android:layout_height="@dimen/profile_size"
+            android:layout_alignParentLeft="true"
+            app:circle_border_color="@color/GrayHot"
+            app:circle_border_width="@dimen/padding_s" />
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/ivProfile"
+            android:paddingLeft="@dimen/padding"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivLike"
+            android:layout_width="@dimen/profile_size"
+            android:layout_height="@dimen/profile_size"
+            android:layout_gravity="center_vertical"
+            android:layout_toLeftOf="@+id/tvLike"
+            android:src="@drawable/like" />
+
+        <TextView
+            android:id="@+id/tvLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/padding" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llInfo"
+        android:padding="@dimen/padding" />
+
+</RelativeLayout>
