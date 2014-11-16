@@ -8,6 +8,5 @@
 	<classpathentry kind="lib" path="/Users/ddsakurambpr/Documents/programming/android-ecauction-manifests/InstagramPhotoViewer/libs/android-async-http-1.4.5.jar"/>
 	<classpathentry kind="lib" path="/Users/ddsakurambpr/Documents/programming/android-ecauction-manifests/InstagramPhotoViewer/libs/picasso-2.3.4.jar"/>
 	<classpathentry kind="lib" path="/Users/ddsakurambpr/Documents/programming/android-ecauction-manifests/InstagramPhotoViewer/libs/jackson-all-1.9.11.jar"/>
-	<classpathentry kind="lib" path="/Users/ddsakurambpr/Documents/programming/android-ecauction-manifests/InstagramPhotoViewer/libs/circularimageview.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
