@@ -11,4 +11,4 @@ Completed user stories:
 * [x] Display a nice default placeholder graphic for each image during loading
 * [x] Improve the user interface through styling and coloring
 
-![Alt text](demo.gif)
+![Demo](https://raw.githubusercontent.com/ddsakura/AndroidInstagramPhotoViewer/master/demo.gif)
